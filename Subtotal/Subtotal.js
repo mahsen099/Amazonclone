@@ -8,7 +8,7 @@ function Subtotal() {
         renderText={(value) => (
           <div>
             <p>
-              Subtotal (099rfefr  items): <strong>0</strong>
+              Subtotal (vfdvfd099rfefr  items): <strong>0</strong>
             </p>
             <small className="subtotal__gift">
               <input type="checkbox" /> This order contains a gift
