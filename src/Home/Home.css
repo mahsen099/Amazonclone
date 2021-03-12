@@ -1,19 +1,41 @@
 .home {
-    /* display: flex;
-    justify-content: center; */
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.sliderbox {
+  width: 1500px;
+  height: 600px;
+  z-index: -1;
+  margin-bottom: -250px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  animation-name: slideranimation;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+@keyframes slideranimation {
+  0% {
+    background: url("https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg");
   }
-  .home__image {
-    width: 100%;
-    z-index: -1;
-    margin-bottom: -150px;
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  20% { 
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/sm/FallGuys_S01_D02/Gateway/V2/GW_Banner_1500x600_EN._CB411384274_.jpg");
   }
-  .home__row {
-    display: flex;
-    z-index: -1;
-    margin-left: 5px;
-    margin-right: 5px;
+  40% {
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/prime/2021_GTM/US2021D1155_GW_DesktopHero_1500x600_EN._CB659228198_.jpg");
   }
+  60% {
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2021/journeys/MzBiNjIyYjgt/MzBiNjIyYjgt-NjFmMGEzYjMt-w1500._CB659232806_.jpg");
+  }
+  80% { 
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/Nzg3NzIxZDct/Nzg3NzIxZDct-OGNhZDRmNzYt-w1500._CB412118632_.jpg");
+  }
+  100% { 
+    background: url("https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg");
+  }
+}

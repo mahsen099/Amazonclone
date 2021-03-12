@@ -6,57 +6,100 @@ function Home() {
   return (
     <div className="home">
       <div className="home__container">
-        <img
-          className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
-          alt=""
-        />
-        <div className="home__row">
-          <Product
-            id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-            price={11.96}
-            rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
-          />
-          <Product
-            id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
-          />
+        <div className="slider">
+          <figure className="sliderbox">
+        </figure>
         </div>
         <div className="home__row">
           <Product
-            id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-            price={199.99}
+            id="12321346"
+            title="Pierre-Emerick Aubameyang Arsenal F.C Kids Home Soccer Jersey"
+            price={111.96}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51yqLC6%2BW3L._AC_SL1000_.jpg"
+          />
+          <Product
+            id="49538054"
+            title="Inverting The Pyramid: The History of Soccer Tactics"
+            price={39.0}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/719tEQtuWsL._AC_UY327_FMwebp_QL65_.jpg"
+          />
+          <Product
+            id="4903857"
+            title="Samsung Galaxy Watch Active 2 (40mm, GPS, Bluetooth) Smart Watch with Advanced Health Monitoring, Fitness Tracking, and Long lasting Battery"
+            price={299.99}
             rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
-          />
-          <Product
-            id="23445930"
-            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-            price={98.99}
-            rating={5}
-            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
-          />
-          <Product
-            id="3254354345"
-            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-            price={598.99}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+            image="https://m.media-amazon.com/images/I/51bSW9gjoaL._AC_UY327_FMwebp_QL65_.jpg"
           />
         </div>
         <div className="home__row">
           <Product
-            id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-            price={1094.98}
+            id="4903837"
+            title="Barcelona F.C Home Football Soccer T-Shirt Jersey (Lionel Messi 10)"
+            price={199.99}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51iQ85prahL._AC_SL1000_.jpg"
+          />
+           <Product
+            id="4903837"
+            title="Face Mask,Pack of 50 Disposable Face Masks,Masks for Women"
+            price={20.39}
+            rating={3}
+            image="https://m.media-amazon.com/images/I/61wGgebyKUL._AC_UL480_FMwebp_QL65_.jpg"
+          />
+          <Product
+            id="23445934"
+            title="Apple iPhone XS Max, 64GB, Gold - For T-Mobile"
+            price={698.99}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+            image="https://m.media-amazon.com/images/I/81yMd8xSFAL._AC_UY327_QL65_.jpg"
+          />
+          <Product
+            id="3254354349"
+            title='Microsoft Surface Laptop 3 – 13.5" Touch-Screen – Intel Core i7 – 16GB Memory - 256GB Solid State Drive (Latest Model)'
+            price={1200.99}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/71sW0+vlWHL._AC_UY327_FMwebp_QL65_.jpg"
+          />
+        </div>
+        <div className="home__row">
+          <Product
+            id="90829335"
+            title="SAMSUNG 85-inch Class QLED Q60T Series - 4K UHD Dual LED Quantum HDR Smart TV with Alexa Built-in"
+            price={2094.98}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/81fkfrkmjSL._AC_UY327_FMwebp_QL65_.jpg"
+          />
+           <Product
+            id="90832335"
+            title="3MP Security Camera Outdoor, Dragon Touch 8CH NVR 4pcs Wireless Security Cameras System with Color Night Vision, Cameras for Home Security, AI Human Detection, Remote Access, Waterproof, No Hard Disk"
+            price={194.18}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/61lj5FPuVwL._AC_SL1500_.jpg"
+          />
+        </div>
+        <div className="home__row">
+          <Product
+            id="90839335"
+            title="Sither 13 Pcs Women Rings Set Knuckle Rings Gold Bohemian Rings for Girls Vintage Gem Crystal Rings Joint Knot Ring Sets for Teens Party Daily Fesvital Jewelry Gift(style3)"
+            price={294.98}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/61+2r53-mxL._AC_UL480_FMwebp_QL65_.jpg"
+          />
+           <Product
+            id="90833235"
+            title="Vooray 23L Ultra-Durable Flex Cinch Gym Drawstring Backpack Sackpack for Women"
+            price={180.58}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/61McwJDUt8L._AC_UL480_FMwebp_QL65_.jpg"
+          />
+          <Product
+            id="90833235"
+            title="Premium Roses| Real Roses That Last a Year | Fresh Flowers| Roses in a Box (Black Box, Small)"
+            price={150.58}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/71kgZ4gVIcL._SL1500_.jpg"
           />
         </div>
       </div>

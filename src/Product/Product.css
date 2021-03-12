@@ -40,3 +40,6 @@
   .product:hover {
     transform: scale(1.05);
   }
+  .checked{
+    color:#f2a842;
+  }

@@ -29,7 +29,7 @@ function Product({ id, title, image, price, rating }) {
         {Array(rating)
             .fill()
             .map(() => (
-              <p>🌟</p>
+              <span class="fa fa-star checked"></span>
             ))}
         </div>
         </div>
